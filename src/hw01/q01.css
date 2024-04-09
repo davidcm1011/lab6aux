@@ -4,7 +4,7 @@
   background-color: red;
   color: white;
   text-align: center;
-  order: 9;
+  order: 9; 
 }
 
 .container-2 {
@@ -80,4 +80,10 @@
 }
 
 .parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between; 
+  width: 330px;
+  height: 360px;
 }

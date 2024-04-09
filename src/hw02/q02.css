@@ -1,33 +1,43 @@
 .container-1 {
-  width: 100px;
+  width: 500px;
   height: 100px;
   background-color: red;
   color: white;
   text-align: center;
+  grid-column-start: 1;
+  grid-row-start: 1;
 }
 
 .container-2 {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   background-color: blue;
   color: white;
   text-align: center;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
 }
 
 .container-3 {
   width: 100px;
-  height: 100px;
+  height: 200px;
   background-color: lightgreen;
   color: white;
   text-align: center;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
 }
 
 .container-4 {
-  width: 100px;
+  width: 200px;
   height: 100px;
   background-color: black;
   color: white;
   text-align: center;
+  grid-row-start: 2;
+  grid-column-start: 4;
 }
 
 .container-5 {
@@ -36,6 +46,8 @@
   background-color: orange;
   color: white;
   text-align: center;
+  grid-row-start: 3;
+  grid-column-start: 4;
 }
 
 .container-6 {
@@ -44,14 +56,18 @@
   background-color: brown;
   color: white;
   text-align: center;
+  grid-row-start: 3;
+  grid-column-start: 5;
 }
 
 .container-7 {
-  width: 100px;
+  width: 300px;
   height: 100px;
   background-color: green;
   color: white;
   text-align: center;
+  grid-column-start: 1;
+  grid-row-start: 4;
 }
 
 .container-8 {
@@ -60,15 +76,24 @@
   background-color: aqua;
   color: white;
   text-align: center;
+  grid-row-start: 4;
+  grid-column-start: 2;
 }
 
 .container-9 {
-  width: 100px;
+  width: 300px;
   height: 100px;
   background-color: aquamarine;
   color: white;
   text-align: center;
+  grid-column-start: 3;
+  grid-row-start: 4;
 }
 
 .parent {
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px ;
 }  
